@@ -51,3 +51,9 @@ To revoke a client certificate, use the following script and enter the name of t
 ```bash
 ./revoke.sh
 ```
+
+## Final notes
+
+If you want to see the logs of the container, use the command `./logs.sh`
+
+This setup has been tested with Digital Ocean 5$ cloud which has 1GB ram and 20GB space.
