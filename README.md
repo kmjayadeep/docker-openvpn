@@ -17,7 +17,7 @@ git clone https://github.com/kmjayadeep/docker-openvpn.git && cd docker-openvpn
 #### Setting up OpenVPN and starting container 
 
 ```bash
-./init.sh
+./init.sh [IP_ADDRESS]
 ```
 
 Enter your desired password when prompted. You'll need this password when generating client certificates.
